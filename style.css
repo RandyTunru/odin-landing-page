@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    border: 0;
+}
+
+header {
+    background-color: #1F2937;
+    display: flex;
+    padding: 0 5vw;
+    justify-content: space-between;
+    align-items: center;
+    color: aliceblue;
+    padding: 0 15vw;
+    height: 10vh;
+    white-space: nowrap;
+}
+
+header  h3{
+    width: 100%;
+    justify-self: flex-start
+}
+
+nav {
+    justify-self: flex-end;
+    display: flex;
+    justify-content: space-between;
+    gap: 4vw;
+    align-items: center;
+    width: 100%;
+}
+
+#hero {
+    background-color: #1F2937;
+    display: flex;
+    padding: 10vh 15vw;
+    justify-content: space-between;
+    align-items: center;
+    color: aliceblue;
+}
+
+#hero p{
+    margin: 2vh 0;
+}
+
+#showcase{
+    padding: 5vh 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2vh;
+}
+
+#c1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#collection{
+    display: flex;
+    justify-content: space-between;
+}
+
+.collection-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    height: 20%;
+}
+
+.display-image{
+    border-radius: 5px;
+    border: 2px solid #1F2937;
+}
+
+#quotes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding : 5vh 30%;
+    background-color: #E5E7EB;
+}
+
+#quotes h4{
+    font-size: 1.5rem;
+    font-weight: light;
+}
+
+#author{
+    display: flex;
+    align-self: flex-end;
+}
+
+#promo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5vh 15%;
+}
+
+#promo-content{
+    display: flex;
+    background-color: #3882f6;
+    align-items: center;
+    justify-content: center;
+    padding: 4vh 10vw;
+    gap : 2vw;
+    border-radius: 5px;
+    color: aliceblue;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5vh 15%;
+    background-color: #1F2937;
+    color: aliceblue;
+}
+
+button {
+    background-color: #3882f6;
+    border-radius: 5px;
+    border: 0;
+    padding: 1vh 2vw;
+    color: aliceblue;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#bordered-button{
+    border: 2px solid #fff;
+}
